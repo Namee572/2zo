@@ -1,29 +1,13 @@
+package com.mbti;
+
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
-import java.util.Scanner;
 
-public class Test {
-    static String name;
-    static String age;
-    static String mbti;
+public class DB implements DBINFO {
 
-
-    public static void mbtiA() {
-
-        //드라이버 연결
-        try {
-            Class.forName("com.mysql.cj.jdbc.Driver");
-        } catch (ClassNotFoundException e){
-            e.printStackTrace();
-        }
-
-
-        //계정연결
-        String url = "jdbc:mysql://192.168.0.38:3306/2zo";
-        String userName = "root";
-        String password = "1234";
+    public DB (String name, String age, String mbti) {
 
         Connection con = null;
 
@@ -48,14 +32,17 @@ public class Test {
 
             //4. Query 실행 및 리턴
             int res = pstm.executeUpdate();
-            if(res > 0) {
+//            if(res > 0) {
 //                System.out.println("입력 성공");
-            } else {
+//            } else {
 //                System.out.println("입력 실패");
-            }
+//            }
+
         } catch (SQLException e) {
             e.printStackTrace();
+
         }finally {
+
             //5. DB종료
             try {
                 pstm.close();
@@ -64,7 +51,6 @@ public class Test {
                 e.printStackTrace();
             }
         }
-
 
     }
 }
