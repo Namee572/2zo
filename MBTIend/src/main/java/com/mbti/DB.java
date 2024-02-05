@@ -7,13 +7,14 @@ import java.sql.SQLException;
 
 public class DB implements DBINFO {
 
+
     public DB (String name, String age, String mbti) {
 
         Connection con = null;
 
         try {
         con = DriverManager.getConnection(url, userName, password);
-        }catch (SQLException e){
+        }catch (SQLException | ClassNotFoundException e){
             e.printStackTrace();
         }
 

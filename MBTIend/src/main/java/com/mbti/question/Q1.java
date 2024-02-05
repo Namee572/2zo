@@ -7,23 +7,6 @@ import java.util.Scanner;
 
 public class Q1 {
 
-//    public boolean q1(){
-//        Scanner sc = new Scanner(System.in);
-//        // Yes: 0 No: 1
-//        // ----------------------------------------------------
-//        try {
-//            System.out.println("Q1. 나는 사실  ");
-//            System.out.println("1번 : 백엔드보다 프론트엔드가 좋다. ");
-//            System.out.println("2번 : 백엔드가 잘 맞는다. ");
-//            int num1 = sc.nextInt();
-//            Sum.sumA(num1);
-//            return true;
-//        }catch (InputMismatchException e){
-//
-//            return false;
-//        }
-//    }
-
 //    Yes 2개 이상 -> E 출력
 
     public void q1() {

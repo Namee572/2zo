@@ -15,7 +15,6 @@ public class Main {
     private static String type;
     private static String txt;
 
-
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
@@ -64,7 +63,6 @@ public class Main {
                     "#스릴♡모험♡여행♡ #쿨함의 대명사 #가끔 공격적\n";
 
         } else if (Sum.sum1 < 2 && Sum.sum2 < 2 && Sum.sum3 < 2) {
-            // System.out.println("ESTJ");
             mbti = "ESTJ";
 
             type = "세일러 마스";
@@ -75,7 +73,6 @@ public class Main {
                     "#빈틈없음 #워커홀릭 #똑부러짐 #꼰대\n";
 
         } else if (Sum.sum1 < 2 && Sum.sum2 < 2 && Sum.sum4 < 2) {
-            // System.out.println("ESFP");
 
             mbti = "ESFP";
 
@@ -87,7 +84,6 @@ public class Main {
                     "#매사에 즐거움 #공사구별 어려움 #붙임성 #음식사진 다량보유\n";
 
         } else if (Sum.sum1 < 2 && Sum.sum2 < 2) {
-            // System.out.println("ESFJ");
 
             mbti = "ESFJ";
 
@@ -99,7 +95,7 @@ public class Main {
                     "#팔랑귀 #정많음 #팀플 선호 #서비스 정신 투철\n";
 
         } else if (Sum.sum1 < 2 && Sum.sum3 < 2 && Sum.sum4 < 2) {
-            // System.out.println("ENTP");
+
             mbti = "ENTP";
 
             type = "짱구";
@@ -122,18 +118,8 @@ public class Main {
 
 
         } else if (Sum.sum1 < 2 && Sum.sum4 < 2) {
-            // System.out.println("ENFP");
-            mbti = "ESFP";
 
-            System.out.println("   ('-.       .-') _               _ (`-.  \n" +
-                    " _(  OO)     ( OO ) )             ( (OO  ) \n" +
-                    "(,------.,--./ ,--,'    ,------. _.`     \\ \n" +
-                    " |  .---'|   \\ |  |\\ ('-| _.---'(__...--'' \n" +
-                    " |  |    |    \\|  | )(OO|(_\\     |  /  | | \n" +
-                    "(|  '--. |  .     |/ /  |  '--.  |  |_.' | \n" +
-                    " |  .--' |  |\\    |  \\_)|  .--'  |  .___.' \n" +
-                    " |  `---.|  | \\   |    \\|  |_)   |  |      \n" +
-                    " `------'`--'  `--'     `--'     `--'     ");
+            mbti = "ESFP";
 
             type = "뽀로로";
 
@@ -143,7 +129,7 @@ public class Main {
                     "#생각하기 전 행동 #친화력의 화신 #관종 #하지만은근낯가림\n";
 
         } else if (Sum.sum1 < 2) {
-            // System.out.println("ENFJ");
+
             mbti = "ESFJ";
 
             type = "피카츄";
@@ -154,7 +140,7 @@ public class Main {
                     "#의리파 #멘탈강함 #핵인싸 #감수성 풍부 #알잘딱깔센\n";
 
         } else if (Sum.sum2 < 2 && Sum.sum3 < 2 && Sum.sum4 < 2) {
-            // System.out.println("ISTP");
+
             mbti = "ISTP";
 
             type = "뮬란";
@@ -165,7 +151,7 @@ public class Main {
                     "#마이웨이 #기브앤테이크 #빈말 못함 #심플이즈베스트\n";
 
         } else if (Sum.sum2 < 2 && Sum.sum3 < 2) {
-            // System.out.println("ISTJ");
+
             mbti = "ISTJ";
 
             type = "징징이";
@@ -175,7 +161,7 @@ public class Main {
                     "#보수적 #질서정연 #남모를 취미 #슈퍼 진지\n" +
                     "#모범생 #동방예의지국 #인내 #현실적 #한국인 표준\n";
         } else if (Sum.sum2 < 2 && Sum.sum4 < 2) {
-            // System.out.println("ISFP");
+
             mbti = "ISFP";
 
             type = "해리포터";
@@ -185,7 +171,7 @@ public class Main {
                     "#겸손 #친절 #평등 #현재를 즐김 #나만의 공간\n" +
                     "#소극적 #부드러움 #서포트특화 #강현욱\n";
         } else if (Sum.sum2 < 2) {
-            // System.out.println("ISFJ");
+
             mbti = "ISFJ";
 
             type = "캡틴 아메리카";
@@ -196,7 +182,7 @@ public class Main {
                     "#속깊음 #주변인 잘챙김 #평화주의자 #박명회 선생님\n";
 
         } else if (Sum.sum3 < 2 && Sum.sum4 < 2) {
-            // System.out.println("INTP");
+
             mbti = "INTP";
 
             type = "셜록홈즈";
@@ -207,7 +193,7 @@ public class Main {
                     "#귀차니스트 #빈말 못함 #목적없는 지식탐구 #권수민\n";
 
         } else if (Sum.sum3 < 2) {
-            // System.out.println("INTJ");
+
             mbti = "INTJ";
 
             type = "타노스";
@@ -218,7 +204,7 @@ public class Main {
                     "지적활동 #은근허당 #능력주의 #귀여운거좋아 #자기반성\n";
 
         } else if (Sum.sum4 < 2) {
-            // System.out.println("INFP");
+
             mbti = "INFP";
 
             type = "마이 멜로디";
@@ -229,7 +215,7 @@ public class Main {
                     "#감정이입 #이상과 현실의 괴리 #망상多多 #예술적 기질\n";
 
         } else {
-            // System.out.println("INFJ");
+
             mbti = "INFJ";
 
             type = "엘사";
@@ -244,6 +230,7 @@ public class Main {
 
         System.out.println("#" + name + "#" + "님과 닳은 캐릭터는 #" + type + "# 입니다.");
         System.out.println("#" + txt + "#");
+
         }
     }
 
