@@ -35,8 +35,8 @@ public class Q4 {
                 // Yes: 0 No: 1
                 // ----------------------------------------------------
                 System.out.println("Q11.둘 중 더 나은 상황은?");
-                System.out.println("Yes : 아무 일정이 없을 때 ");
-                System.out.println("No :  모든 일정이 정해져 있을 때");
+                System.out.println("1번 : 아무 일정이 없을 때 ");
+                System.out.println("2번 :  모든 일정이 정해져 있을 때");
                 int num4 = sc.nextInt();
                 Sum.sumD(num4);
                 break;

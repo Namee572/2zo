@@ -7,7 +7,7 @@ import java.util.Scanner;
 
 public class Q1 {
 
-//    Yes 2개 이상 -> E 출력
+    //    Yes 2개 이상 -> E 출력
 
     public void q1() {
         Scanner sc = new Scanner(System.in);

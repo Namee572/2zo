@@ -8,9 +8,9 @@ public class Sum {
     public static int sum3 = 0;
     public static int sum4 = 0;
 
-    public static int sumA(int sum) {
+    public static int sumA(int suma) {
 
-        if (sum == 1) {
+        if (suma == 1) {
             System.out.println(sum1);
 
             return sum1;
@@ -21,8 +21,8 @@ public class Sum {
         return sum1;
     }
 
-    public static int sumB (int sum){
-        if (sum == 1) {
+    public static int sumB (int suma){
+        if (suma == 1) {
             System.out.println(sum2);
 
             return sum2;
@@ -33,8 +33,8 @@ public class Sum {
         return sum2;
     }
 
-    public static int sumC(int sum){
-        if (sum == 1 ) {
+    public static int sumC(int suma){
+        if (suma == 1 ) {
             System.out.println(sum3);
 
             return sum3;
@@ -45,8 +45,8 @@ public class Sum {
         return sum3;
     }
 
-    public static int sumD(int sum){
-        if (sum == 1 ) {
+    public static int sumD(int suma){
+        if (suma == 1 ) {
             System.out.println(sum4);
 
             return sum4;

@@ -60,8 +60,8 @@ public class Q3 {
                 // ----------------------------------------------------
 
                 System.out.println("Q9.더 기분 좋은 칭찬은?");
-                System.out.println("Yes : 너 천재임?");
-                System.out.println("No : 너 천사임?");
+                System.out.println("1번 : 너 천재임?");
+                System.out.println("2번 : 너 천사임?");
                 int num3 = sc.nextInt();
                 Sum.sumC(num3);
                 break;

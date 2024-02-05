@@ -7,19 +7,18 @@ import java.sql.SQLException;
 
 public class DB implements DBINFO {
 
-
-    public DB (String name, String age, String mbti) {
+    public DB (String name, String age, String mbti, String type) {
 
         Connection con = null;
 
         try {
         con = DriverManager.getConnection(url, userName, password);
-        }catch (SQLException | ClassNotFoundException e){
+        }catch (SQLException e){
             e.printStackTrace();
         }
 
         String spl = " INSERT INTO MEMBER "
-                + " VALUES (?, ?, ?, ?) ";
+                + " VALUES (?, ?, ?, ?, ?) ";
 
         PreparedStatement pstm = null;
 
@@ -30,6 +29,8 @@ public class DB implements DBINFO {
             pstm.setString(2,  name);
             pstm.setString(3,  age);
             pstm.setString(4,  mbti);
+            pstm.setString(5,  type);
+
 
             //4. Query 실행 및 리턴
             int res = pstm.executeUpdate();
