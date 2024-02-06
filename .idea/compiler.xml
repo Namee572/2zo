@@ -9,5 +9,8 @@
         <module name="MBTIend" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="asdf" target="17" />
+    </bytecodeTargetLevel>
   </component>
 </project>
